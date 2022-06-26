@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tian.itemcloudprovider.mapper.UserCollMapper">
+
+    <select id="selectCollSortList" resultType="Items">
+        select i.* from items as i
+        left join user_coll as c
+        on c.item_id=i.id
+        where c.user_id=#{itemVo.userId}
+        and i.type like CONCAT('%',#{itemVo.type},'%')
+        order by ${itemVo.order}
+        <choose>
+            <when test="itemVo.isAsc">
+                asc
+            </when>
+            <otherwise>
+                desc
+            </otherwise>
+        </choose>
+    </select>
+</mapper>
