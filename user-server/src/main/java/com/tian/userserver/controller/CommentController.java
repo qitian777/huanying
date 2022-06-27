@@ -36,8 +36,6 @@ public class CommentController {
     @ApiOperation(value = "发表或更新评价")
     @PostMapping("/addOrUpdate")
     public RespBean addOrUpdate(@Valid @RequestBody Comment comment) {
-        System.out.println("---------111111------"+comment.getView());
-        System.out.println("---------111111------"+comment.getScore());
         User user= (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         comment.setUserId(user.getId());
         int i = commentService.addOrUpdate(comment);

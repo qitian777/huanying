@@ -1,0 +1,21 @@
+#设置端口号
+server:
+  port: 8081
+  servlet:
+    context-path: /nu
+spring:
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/huanying?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: QIji-123
+
+# 显示日志
+logging:
+  level:
+    com:
+      tian: error
+  # 日志输出到文件
+  file:
+    name: /home/log/item-server.log

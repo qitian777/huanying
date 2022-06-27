@@ -1,7 +1,8 @@
 spring:
   profiles:
     # 启用对应版本配置
-    active: dev
+#    active: dev
+    active: prod
   jackson:
     # JSON日期格式化
     date-format:

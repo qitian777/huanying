@@ -43,7 +43,7 @@ public class CaptchaController {
         //---------------------------生成验证码----------------------
         // 获取验证码文本内容
         String text = defaultKaptcha.createText();
-        System.out.println("验证码:  " + text);
+//        System.out.println("验证码:  " + text);
         // 将验证码放到session中
         request.getSession().setAttribute("captcha",text);
         // 根据文本内容创建图形验证码

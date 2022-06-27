@@ -1,0 +1,12 @@
+com\tian\itemcloudprovider\config\mybatis\CommonMetaObjectHandler.class
+com\tian\itemcloudprovider\config\exception\GlobalExceptionHandler.class
+com\tian\itemcloudprovider\config\mybatis\MyBatisPlusConfig.class
+com\tian\itemcloudprovider\mapper\UserCollMapper.class
+com\tian\itemcloudprovider\config\exception\GlobalException.class
+com\tian\itemcloudprovider\config\swagger\SwaggerConfig.class
+com\tian\itemcloudprovider\pojo\UserColl.class
+com\tian\itemcloudprovider\service\impl\UserCollServiceImpl.class
+com\tian\itemcloudprovider\service\IUserCollService.class
+com\tian\itemcloudprovider\pojo\Items.class
+com\tian\itemcloudprovider\ItemCloudProviderApplication.class
+com\tian\itemcloudprovider\controller\UserCollController.class
