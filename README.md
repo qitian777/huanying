@@ -2,6 +2,10 @@
 
 此为huanying项目springcloud部分集群化升级版本，同时复习以前学过的springcloud知识。
 
+本项目使用了cloud的Eureka、Ribbon、Hystrix、gateway组件。
+
+负载均衡使用了Ribbon，因此没有用到Fegin。
+
 # 1、Eureka
 
 使用的cloud版本
