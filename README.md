@@ -1,10 +1,8 @@
 # 0、简介
 
-此为huanying项目springcloud部分集群化升级版本，同时复习以前学过的springcloud知识。
+此为huanying项目springcloud部分集群化升级版本，同时复习以前学过的springcloud知识。本项目使用了cloud的Eureka、Ribbon、Hystrix、gateway组件。负载均衡使用了Ribbon，因此没有用到Fegin。
 
-本项目使用了cloud的Eureka、Ribbon、Hystrix、gateway组件。
-
-负载均衡使用了Ribbon，因此没有用到Fegin。
+相较于原项目新增了两个eureka-serve服务器模块、一个item-cloud-provider模块和一个gateway网关模块（zuul因版本问题要降级太麻烦放弃）。item-cloud-provider模块中添加Hystrix服务降级和熔断功能。
 
 # 1、Eureka
 
