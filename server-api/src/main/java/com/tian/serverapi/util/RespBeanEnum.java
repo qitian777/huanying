@@ -54,7 +54,8 @@ public enum  RespBeanEnum {
     DELETE_COLLECTION_FAIL(500407,"取消收藏失败"),
     REDIS_NULL(500500,"Redis中没有您想要的值"),
     SEND_MESSAGE_ERROR(500501,"消息发送失败"),
-    WEBSOCKET_ERROR(500502,"websocket出现了一点问题");
+    WEBSOCKET_ERROR(500502,"websocket出现了一点问题"),
+    HYSTRIX_ERROR(500600,"cloud生产者响应超时");
 
     private final int code;
     private final String message;

@@ -8,7 +8,7 @@ spring:
     virtual-host: /
   # 邮箱
   mail:
-    username: 1097598544@qq.com
+    username:
     password:
     host: smtp.qq.com
     properties.mail.smtp.ssl.enable: true

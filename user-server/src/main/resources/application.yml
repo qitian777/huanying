@@ -2,7 +2,7 @@ spring:
   profiles:
     # 启用对应版本配置
 #    active: dev
-    active: prod
+    active: dev
   jackson:
     # JSON日期格式化
     date-format:
@@ -60,9 +60,9 @@ mybatis-plus:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/	#注册中心url
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/	#注册中心url
     fetch-registry: true
-    register-with-eureka: true
+    register-with-eureka: false
 
 ############# 自定义配置  #############
 

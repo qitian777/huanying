@@ -3,12 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-02/eureka-server-02.iml" filepath="$PROJECT_DIR$/eureka-server-02/eureka-server-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-03/eureka-server-03.iml" filepath="$PROJECT_DIR$/eureka-server-03/eureka-server-03.iml" />
       <module fileurl="file://$PROJECT_DIR$/generator/generator.iml" filepath="$PROJECT_DIR$/generator/generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/huanying.iml" filepath="$PROJECT_DIR$/huanying.iml" />
       <module fileurl="file://$PROJECT_DIR$/item-cloud-provider/item-cloud-provider.iml" filepath="$PROJECT_DIR$/item-cloud-provider/item-cloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-cloud-provider-02/item-cloud-provider-02.iml" filepath="$PROJECT_DIR$/item-cloud-provider-02/item-cloud-provider-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/item-server/item-server.iml" filepath="$PROJECT_DIR$/item-server/item-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-server/mail-server.iml" filepath="$PROJECT_DIR$/mail-server/mail-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-api/server-api.iml" filepath="$PROJECT_DIR$/server-api/server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-server/user-server.iml" filepath="$PROJECT_DIR$/user-server/user-server.iml" />
     </modules>
   </component>

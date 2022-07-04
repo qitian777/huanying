@@ -9,33 +9,54 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mail-server" />
         <module name="eureka-server" />
-        <module name="item-cloud-provider" />
-        <module name="server-api" />
-        <module name="item-server" />
-        <module name="user-server" />
         <module name="generator" />
+        <module name="eureka-server-03" />
+        <module name="springcloud-zuul" />
+        <module name="item-cloud-provider" />
+        <module name="item-cloud-provider-02" />
+        <module name="item-server" />
+        <module name="eureka-server-02" />
+        <module name="user-server" />
+        <module name="spring-cloud-gateway" />
+        <module name="server-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="11" />
+      <module name="eureka-server-02" target="11" />
+      <module name="eureka-server-03" target="11" />
+      <module name="eureka-server02" target="11" />
+      <module name="eureka-server03" target="11" />
       <module name="generator" target="11" />
       <module name="huanying" target="11" />
       <module name="item-cloud-provider" target="11" />
+      <module name="item-cloud-provider-02" target="11" />
+      <module name="item-cloud-provider-hystrix" target="11" />
       <module name="item-server" target="11" />
       <module name="mail-server" target="11" />
       <module name="server-api" target="11" />
+      <module name="spring-cloud-gateway" target="11" />
+      <module name="springcloud-zuul" target="11" />
       <module name="user-server" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-02" options="-parameters" />
+      <module name="eureka-server-03" options="-parameters" />
+      <module name="eureka-server02" options="-parameters" />
+      <module name="eureka-server03" options="-parameters" />
       <module name="generator" options="-parameters" />
       <module name="huanying" options="" />
       <module name="item-cloud-provider" options="-parameters" />
+      <module name="item-cloud-provider-02" options="-parameters" />
+      <module name="item-cloud-provider-hystrix" options="-parameters" />
       <module name="item-server" options="-parameters" />
       <module name="mail-server" options="-parameters" />
       <module name="server-api" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
+      <module name="springcloud-zuul" options="-parameters" />
       <module name="user-server" options="-parameters" />
     </option>
   </component>

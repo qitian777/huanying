@@ -16,11 +16,17 @@
     <modules>
         <module>generator</module>
         <module>eureka-server</module>
+        <module>eureka-server-02</module>
+        <module>eureka-server-03</module>
         <module>server-api</module>
         <module>item-server</module>
         <module>item-cloud-provider</module>
+        <module>item-cloud-provider-02</module>
+        <module>item-cloud-provider-hystrix</module>
         <module>user-server</module>
         <module>mail-server</module>
+        <module>springcloud-zuul</module>
+        <module>spring-cloud-gateway</module>
     </modules>
     <properties>
         <java.version>11</java.version>
@@ -54,6 +60,8 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <!-- commons-pool2对象池依赖 -->
             <dependency>

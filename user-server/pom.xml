@@ -141,7 +141,6 @@
                     <artifactId>servlet-api</artifactId>
                 </exclusion>
             </exclusions>
-            <version>3.0.5</version>
         </dependency>
         <!--   aes加解密   -->
         <dependency>
