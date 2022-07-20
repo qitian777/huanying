@@ -2,6 +2,7 @@
 #### 介绍
 
 本项目为自建网站前后端分离后端服务器部分，项目完成版可参见：https://huanyingol.cn/
+前端代码：https://github.com/qitian777/huanyingol
 
 网站实现了影视信息的展示、分类、搜索功能及用户登录功能。
 
