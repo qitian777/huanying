@@ -1,7 +1,8 @@
 # huanying
 #### 介绍
 
-本项目为自建网站前后端分离后端服务器部分，项目完成版可参见：https://huanyingol.cn/
+本项目为自建网站前后端分离后端服务器部分
+项目完成版可参见：https://huanyingol.cn/
 前端代码：https://github.com/qitian777/huanyingol
 早期版本（Thymleaf版）：https://github.com/qitian777/web
 
